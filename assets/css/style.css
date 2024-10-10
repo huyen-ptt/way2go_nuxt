@@ -4084,7 +4084,12 @@ input:focus {
   width: 100%;
   height: 450px;
 }
-
+.swiper-button-prev, .swiper-button-next {
+  color: black !important;
+}
+.swiper-button-prev:after, .swiper-button-next:after {
+  font-size: 18px !important;
+}
 .section-19 img {
   width: 100%;
   height: 100%;
@@ -4104,7 +4109,9 @@ input:focus {
 .section-21 {
   padding: 40px 0 10px;
 }
-
+.inner-item-feedback{
+  height: 235px !important;
+}
 .section-21 .inner-item {
   background-color: #fff;
   border-radius: 7px;
@@ -4112,6 +4119,7 @@ input:focus {
   padding: 40px 30px;
   text-align: center;
   height: 100%;
+  
 }
 
 .section-21 .inner-item .inner-image {
