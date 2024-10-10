@@ -550,9 +550,9 @@
 .section-21 {
     overflow: hidden;
 }
-.feedback-block .inner-item {
+/* .feedback-block .inner-item {
     padding: unset;
-}
+} */
 #search-results {
     position: absolute;
     width: 100%;
@@ -736,7 +736,9 @@
 #option_btn.open {
     transform: translate(-701px, 0);
 }
-
+.open1 {
+    transform: translate(-701px, 0) !important;
+}
 .bao.row {
     --bs-gutter-x: -1.5rem !important;
     margin: auto;
