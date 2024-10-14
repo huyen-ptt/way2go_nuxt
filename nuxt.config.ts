@@ -7,12 +7,10 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-16',
       viewport: 'width=device-width, initial-scale=1',
-      script: [
-        { src: '/js/script.js', body: true },
-      ],
+     
       link: [
         { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css' },
-        { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' },
+        { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' }
 
       ]
 
@@ -28,6 +26,8 @@ export default defineNuxtConfig({
     "~/assets/css/swiper-bundle.min.css",
     "~/assets/css/viewer.css",
     "~/assets/css/tong.css",
+    // "~/assets/scss/style.scss",
+
 
 
 
@@ -35,18 +35,10 @@ export default defineNuxtConfig({
   ],
   plugins: [
     {
-      src: 'plugins/bootstrap.mine209.js',
+      src: 'plugins/bootstrap.js',
       mode: 'client'
     },
 
-    {
-      src: 'plugins/jquery-3.3.1.mine209.js',
-      mode: 'client'
-    },
-    {
-      src: 'plugins/popper.mine209.js',
-      mode: 'client'
-    },
 
   ],
 })
